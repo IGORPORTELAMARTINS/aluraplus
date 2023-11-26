@@ -189,13 +189,13 @@ body {
 
     align-items: center;
     text-align: center;
-    padding: 50px;
+    padding: 14px;
 }
 
 .container__imagem {
 
     margin: 0.5em 0 1em 0;
-    width: 40%;
+    width: 60%;
 }
 .container__caixa{
 
@@ -223,7 +223,7 @@ body {
 
 .container {
     height: 100vh;  
-    grid-template-columns: 100%; 
+    grid-template-columns: 50% 50%; 
 }
 
 
