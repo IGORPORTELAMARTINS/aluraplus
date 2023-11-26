@@ -1,0 +1,181 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
+    --botao-zul-efeito: #6fb0f2;
+
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;  /*background-repeat: no-repeat; está sendo aplicado evitar o reflexo da imagem do Background.png*/
+    background-size: contain;
+    align-items: center; /*como o grid esta alinhado em colunas, ele alinhou o conteudo desta class no centro*/
+    text-align: center; /*ele alinhou o conteudo desta section no centro*/
+}
+
+.container {
+    height: 100vh;  /*aqui define a altura(height) da visualização do background.png*/
+    display: grid; /*o grid É usado para separar elementos, elementos esse que estão dentro da div no html*/
+    grid-template-columns: 50% 50%; /*aqui esta separando a tela em blocos de coluna para que grid desse container ocupe metade*/
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;  /*1em é uma medida relativa ao tamanho da fonte, ou seja o que esta em volta da fonte se  */
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none; /*tira o sublinhado do titulo*/
+    margin-bottom: 1em; /*espaçamento entre os botões*/
+}   
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal); 
+}
+
+.container__aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.container__titulo {
+    font-size: 28px;
+}
+
+.container__imagem {
+
+    margin: 1em 0 2em 0; /*funciona como um relogio, sentido horario, aqui estou espaçando a imagem dos botões*/
+}
+
+.container__caixa {
+
+    margin: 0 6em; /*criou um espaçamento ao redor dos elementos*/
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto { 
+    color: var(--cinza-secundario);
+}
+
+.secundario__botao {
+
+    display:inline-block; /*https://medium.com/collabcode/pare-de-chutar-e-aprenda-como-funciona-o-display-inline-block-4e6cba2f19d4*/
+    margin-top: 1em;
+}
+
+.container__descricao {
+
+    padding: 2em;
+}
+
+.dispositivos__lista {
+
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.dispositivos {
+
+    text-align: center;
+}
+
+.dispositivos__titulo {
+
+    font-size: 48px;
+    color: var(--branco-principal);
+ 
+}
+
+.lista__item {
+
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+
+.rodape__logo {
+
+    margin: 2em 0;
+
+}
+
+.rodape {
+
+    text-align: center;
+    
+}
+
+.rodape__lista {
+
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 16px;
+}
+
+
+.lista__link a{
+
+    text-decoration: none;
+    color:var(--branco-principal)
+
+}
+
+
+.rodape__texto { 
+
+    font-size: 14px;
+    color: var(--cinza-secundario);    
+    padding: 1.5em 1.5em;
+}
+
+.lista__link a:hover {
+    color: var(--botao-azul)
+}
+
+.lista__link a:active {
+    color: purple
+}
+
+.container__botao:hover {
+
+    background-color: var(--botao-zul-efeito);
+    color: var(--cor-de-fundo);
+    
+}
