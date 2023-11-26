@@ -199,11 +199,11 @@ body {
 }
 .container__caixa{
 
-    padding: 5em;
+    padding: 10em;
 }
 
 .container__titulo {
-    font-size: 10px;
+    font-size: auto;
 }
 .container__botao {
     background-color: var(--botao-azul);
