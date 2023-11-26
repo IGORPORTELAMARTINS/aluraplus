@@ -189,6 +189,13 @@ body {
 
     align-items: center;
     text-align: center;
+    padding: 25px;
+}
+
+
+.container__caixa{
+
+    padding: 1em;
 }
 
 .container__titulo {
