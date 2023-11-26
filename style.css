@@ -187,8 +187,8 @@ body {
 
 .principal {
 
-    align-items: center;
-    text-align:left;
+    align-items: left;
+    text-align:center;
     padding: 14px;
 }
 
