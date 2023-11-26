@@ -189,17 +189,36 @@ body {
 
     align-items: center;
     text-align: center;
-    padding: 25px;
+    padding: 50px;
 }
 
+.container__imagem {
 
+    margin: 0.5em 0 1em 0;
+    width: 40%;
+}
 .container__caixa{
 
     padding: 1em;
 }
 
 .container__titulo {
-    font-size: 14px;
+    font-size: 10px;
+}
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 2px;
+    padding: 0.5em;  /*1em é uma medida relativa ao tamanho da fonte, ou seja o que esta em volta da fonte se  */
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none; /*tira o sublinhado do titulo*/
+    margin-bottom: 0.5em; /*espaçamento entre os botões*/
+}   
+
+.botao_secundario {
+    background-color: transparent;
+    border: 1px solid var(--branco-principal); 
+
 }
 
 .container {
