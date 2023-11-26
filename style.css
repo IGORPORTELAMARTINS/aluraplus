@@ -180,3 +180,23 @@ body {
     color: var(--cor-de-fundo);
     
 }
+
+
+@media (max-width: 1200px) { 
+    .apresentacao {
+        padding: 10%;
+    }
+
+    .principal {
+        justify-content: center;
+    }
+
+    .container__caixa{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .secundario {
+        width: auto;
+    }
+}
