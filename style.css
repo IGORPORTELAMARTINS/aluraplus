@@ -191,6 +191,12 @@ body {
         justify-content: center;
     }
 
+    .container__titulo {
+        flex-direction: column-reverse;
+        padding: 5%;
+
+    }
+
     .container__caixa{
         flex-direction: column-reverse;
         padding: 5%;
