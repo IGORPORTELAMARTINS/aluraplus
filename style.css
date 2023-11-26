@@ -65,6 +65,7 @@ body {
 .container__imagem {
 
     margin: 1em 0 2em 0; /*funciona como um relogio, sentido horario, aqui estou espaçando a imagem dos botões*/
+    width: 80%;
 }
 
 .container__caixa {
