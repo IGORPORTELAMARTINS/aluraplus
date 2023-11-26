@@ -188,4 +188,9 @@ body {
 .principal {
 
     align-items: center;
+    text-align: center;
+}
+
+.container__titulo {
+    font-size: 14px;
 }
