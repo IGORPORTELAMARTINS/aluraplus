@@ -194,3 +194,11 @@ body {
 .container__titulo {
     font-size: 14px;
 }
+
+.container {
+    height: 100vh;  
+    grid-template-columns: 100%; 
+}
+
+
+}
