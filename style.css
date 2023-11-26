@@ -183,22 +183,21 @@ body {
 
 
 @media (max-width: 1200px) { 
-    .apresentacao {
-        padding: 10%;
-    }
+
 
     .principal {
         justify-content: center;
     }
 
     .container__titulo {
-        flex-direction: column-reverse;
-        padding: 5%;
+        flex-direction: row-reverse;
+        padding: 15%;
 
     }
-
+    descricao__titulo
+    
     .container__caixa{
-        flex-direction: column-reverse;
+        flex-direction: row-reverse;
         padding: 5%;
     }
 
