@@ -183,7 +183,10 @@ body {
 
 
 @media (max-width: 1200px) { 
-
+    
+    .apresentacao {
+        padding: 10%;
+    }
 
     .principal {
         justify-content: center;
