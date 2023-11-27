@@ -191,6 +191,7 @@ body {
     }
     .principal {
         display: block;
+        align-items: flex-end;
     }
     
     .container__imagem{
@@ -213,4 +214,3 @@ body {
         display: block;
     }
     }
-    
