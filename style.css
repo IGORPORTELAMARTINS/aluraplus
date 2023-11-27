@@ -184,6 +184,11 @@ body {
 
 @media (max-width: 768px) {
 
+.container {
+
+    display: block;
+    background-image: none;
+}
 
 body {
     background-color: var(--cor-de-fundo);
