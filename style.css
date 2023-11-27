@@ -182,7 +182,7 @@ body {
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
 
 
 body {
@@ -223,13 +223,12 @@ body {
 
 .container__caixa {
 
-    margin: 3em; /*criou um espaçamento ao redor dos elementos*/
+    margin: 2em 2em;
 }
 
 .container__imagem {
 
-    margin: 1.5em 0 0.5em 0; /*funciona como um relogio, sentido horario, aqui estou espaçando a imagem dos botões*/
-    width: 60%;
+    width: 50vw
 }
 
 .container__botao {
@@ -267,6 +266,9 @@ body {
 
 }
 
+..descricao__texto { 
+    padding: 0%;
+}
 
 .dispositivos__titulo {
 
@@ -276,10 +278,7 @@ body {
 
 .dispositivos__lista {
 
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    margin: 1em 0;
+    display: block;
 }
 
 
@@ -310,9 +309,7 @@ body {
 
 .rodape__lista {
 
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
+    display: block;
     gap: 5px;
 }
 
