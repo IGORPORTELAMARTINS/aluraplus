@@ -189,6 +189,10 @@ body {
         background-image: top;
         
     }
+    .principal {
+        display: block;
+    }
+    
     .container__imagem{
         width: 50vw;
     }
@@ -209,3 +213,4 @@ body {
         display: block;
     }
     }
+    
