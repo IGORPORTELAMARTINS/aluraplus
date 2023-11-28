@@ -192,8 +192,8 @@ body {
 }
 
 .container__titulo{
-    padding: 5% 35% 0% 0%;
-    text-align: center;
+    padding: 5% 30% 0% 0%;
+    text-align: left;
     font-size: 24px;
 }
 .principal {
@@ -203,7 +203,7 @@ body {
 
 .container__imagem{
     padding-top: 4em;
-    width: 70vw;
+    width: 80vw;
     
 }
 
